@@ -18,6 +18,8 @@ app_license = "GPL 3.0"
 # app_include_css = "/assets/access/css/access.css"
 # app_include_js = "/assets/access/js/access.js"
 
+app_include_css = "/assets/css/access.min.css"
+
 # include js, css files in header of web template
 # web_include_css = "/assets/access/css/access.css"
 # web_include_js = "/assets/access/js/access.js"
