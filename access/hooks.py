@@ -120,3 +120,13 @@ app_license = "GPL 3.0"
 # 	"frappe.desk.doctype.event.event.get_events": "access.event.get_events"
 # }
 
+override_whitelisted_methods = {
+ 	"frappe.core.page.permission_manager.permission_manager.get_roles_and_doctypes": "access.permission.get_roles_and_doctypes",
+ 	"frappe.core.page.permission_manager.permission_manager.get_permissions": "access.permission.get_permissions",
+	"frappe.core.page.permission_manager.permission_manager.add": "access.permission.add",
+	"frappe.core.page.permission_manager.permission_manager.update": "access.permission.update",
+	"frappe.core.page.permission_manager.permission_manager.remove": "access.permission.remove",
+	"frappe.core.page.permission_manager.permission_manager.reset": "access.permission.reset",
+	"frappe.core.page.permission_manager.permission_manager.get_users_with_role": "access.permission.get_users_with_role",
+	"frappe.core.page.permission_manager.permission_manager.get_standard_permissions": "access.permission.get_standard_permissions",
+}
